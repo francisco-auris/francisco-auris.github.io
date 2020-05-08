@@ -1,0 +1,117 @@
+.img-perfil {
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    border-radius:100px;
+    border:solid 6px #1A9DE1;
+    background-image: url('img/perfil.png');
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    box-shadow: 0px 4px 4px rgba(0,0,0,0.3);
+}
+.container {
+    /*display: flex;*/
+}
+header {
+    width: 100%;
+    height: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 40px;
+}
+    header img {
+        width: 30px;
+        display: inline-block;
+    }
+    .whatsapp { color: #25D366; margin-right: 50px;}
+    .whatsapp:hover { color: #25D366;}
+section {
+    display: flex;
+}
+article#perfil {
+    width: 100%;
+    border-radius: 50px;
+    background-color: #1A9DE1;
+    padding: 40px;
+}
+    article#perfil p {
+        font-size: 1.4em;
+        text-align: justify;
+        color: white;
+    }
+    article#perfil p::first-letter {
+        margin-left: 50px;
+    }
+h3.title {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.card {
+    border-radius: 50px !important;
+    height: 350px;
+    padding: 35px;
+}
+.card-img-top {
+    width: 150px !important;
+}
+.progress {
+    border-radius: 15px !important;
+}
+article#history {
+    padding: 40px;
+    border-radius: 50px;
+    background-color: #eee;
+    margin-bottom: 20px;
+}
+.list-group-item { background-color: transparent !important;}
+.list-group-item:last-child { border-bottom: 0px;}
+article#education {
+    width: 100%;
+    padding: 40px;
+    border-bottom: solid 1px #eee;
+}
+    article#education:last-child { border-bottom: 0px;}
+footer {
+    width: 100%;
+    padding: 40px;
+    background-color: #2a2a2a;
+    color: white;
+}
+@media (max-width: 700px) {
+    /** MOBILE ***/
+    header {
+        margin-bottom: 20px;
+    }
+    .img-perfil {
+        margin: 0 auto;
+    }
+    .text-perfil {
+        text-align: center;
+        padding-top: 20px;
+    }
+        .text-perfil .display-4 {
+            font-size: 1.6em;
+            font-weight: bold;
+        }
+    h3.title {
+        margin-top: 10px;
+        text-align: center;
+    }
+    article#perfil { padding: 30px; }
+        article#perfil p { font-size: 1em; }
+    article#history {
+        padding: 30px;
+    }
+    article#education {
+        padding: 30px;
+    }
+    .card {
+        border-radius: 50px !important;
+        height: 250px;
+        padding: 5px;
+        border:0 !important;
+    }
+    .card-img-top {
+        width: 70px !important;
+    }
+}
